@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'overrides';
+@import 'buttons';
+@import 'header';
+
+body {
+    font-family: $font-main;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+}

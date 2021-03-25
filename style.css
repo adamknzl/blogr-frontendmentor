@@ -1,0 +1,146 @@
+ul {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+button:focus, button:active {
+  outline: none !important;
+}
+
+.btn {
+  font-family: inherit;
+  cursor: pointer;
+  padding: 15px 0;
+  width: 140px;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+  border: none;
+}
+
+.btn-login {
+  background-color: transparent;
+  font-weight: 700;
+  color: white;
+}
+
+.btn-white {
+  background-color: white;
+  color: #ff525d;
+  font-weight: 700;
+  border-radius: 30px;
+}
+
+.btn-white:hover {
+  background-color: #ff7a85;
+  color: white;
+}
+
+.btn-more {
+  background-color: transparent;
+  color: white;
+  border: 1.5px solid white;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+.btn-more:hover {
+  background-color: white;
+  color: #ff525d;
+}
+
+.header-global {
+  background: url(../img/bg-pattern-intro.svg) 0% no-repeat, -webkit-gradient(linear, left top, right top, from(#ff8f70), to(#ff3d54));
+  background: url(../img/bg-pattern-intro.svg) 0% no-repeat, linear-gradient(90deg, #ff8f70 0%, #ff3d54 100%);
+  border-radius: 0 0 0 100px;
+  height: 70vh;
+}
+
+.header-global .navbar-global {
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-global .navbar-global .menu-global {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header-global .navbar-global .menu-global > li {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.header-global .navbar-global .menu-global .submenu {
+  display: none;
+  position: relative;
+  top: 40px;
+  right: 110px;
+  width: 120px;
+  background-color: white;
+  border-radius: 8px;
+  color: #1f3f5b;
+  padding: 35px 25px !important;
+  -webkit-box-shadow: 0 0 8px 0px #222;
+          box-shadow: 0 0 8px 0px #222;
+}
+
+.header-global .navbar-global .menu-global .submenu li {
+  margin-bottom: 15px;
+  cursor: pointer;
+  -webkit-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+.header-global .navbar-global .menu-global .submenu li:last-of-type {
+  margin-bottom: 0;
+}
+
+.header-global .navbar-global .menu-global .submenu li:hover {
+  font-weight: 700;
+}
+
+.header-global .navbar-global .menu-global .submenu.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header-global .navbar-global .menu-global .menu-arrow.rotate {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 1440px;
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */

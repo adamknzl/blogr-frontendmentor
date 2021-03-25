@@ -1,0 +1,41 @@
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+    
+    padding: 15px 0;
+    width: 140px;
+
+    transition: all 0.15s ease;
+    border: none;
+}
+
+.btn-login {
+    background-color: transparent;
+    font-weight: 700;
+    color: $white;
+}
+
+.btn-white {
+    background-color: $white;
+    color: $red-main;
+    font-weight: 700;
+    border-radius: 30px;
+
+    &:hover {
+        background-color: $red-sec;
+        color: $white;
+    }
+}
+
+.btn-more {
+    background-color: transparent;
+    color: $white;
+    border: 1.5px solid $white;
+    border-radius: 30px;
+    font-weight: 700;
+
+    &:hover {
+        background-color: $white;
+        color: $red-main;
+    }
+}

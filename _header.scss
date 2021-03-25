@@ -1,0 +1,64 @@
+.header-global {
+    background: url(../img/bg-pattern-intro.svg) 0% no-repeat, $intro-gradient;
+    border-radius: 0 0 0 100px;
+    height: 70vh;
+
+    .navbar-global {
+        font-family: $font-sec;
+        padding-top: 60px;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .menu-global {
+            color: $white;
+            display: flex;
+            flex-direction: row;
+
+            > li {
+                cursor: pointer;
+                margin-right: 10px;
+            }
+
+            .submenu {
+                display: none;
+                
+                position: relative;
+                top: 40px;
+                right: 110px;
+                width: 120px;
+                
+                background-color: $white;
+                border-radius: 8px;
+                color: $blue-main;
+                
+                padding: 35px 25px !important;
+                box-shadow: 0 0 8px 0px #222;
+
+                li {
+                    margin-bottom: 15px;
+                    cursor: pointer;
+                    transition: all 0.15s ease;
+
+                    &:last-of-type {
+                        margin-bottom: 0;
+                    }
+
+                    &:hover {
+                        font-weight: 700;
+                    }
+                }
+
+                &.active {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+            .menu-arrow.rotate {
+                transform: rotate(180deg);
+            }
+        }
+    }
+}
